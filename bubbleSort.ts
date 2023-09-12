@@ -1,4 +1,4 @@
-export function bubbleSort(arr: Number[]): Number[] {
+function bubbleSort(arr: Number[]): Number[] {
   if (arr.length < 2) return arr
 
   for (let i = 0; i < arr.length - 1; i++) {
