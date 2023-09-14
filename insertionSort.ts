@@ -1,4 +1,4 @@
-function insertionSort(arr: Number[]): Number[] {
+export function insertionSort(arr: Number[]): Number[] {
   const n = arr.length
 
   for (let i = 1; i < n; i++) {
