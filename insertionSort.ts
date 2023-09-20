@@ -3,7 +3,7 @@ export function insertionSort(arr: Number[]): Number[] {
     let sorted = i - 1
     const current = arr[i]
 
-    while (sorted > -1 && current < arr[sorted]) {
+    while (sorted > -1 && arr[sorted] > current) {
       arr[sorted + 1] = arr[sorted]
       sorted--
     }
