@@ -1,6 +1,5 @@
 # sort
 Sorting functions for typescript are at hand
-https://github.com/Darnelo-Inc/sort/blob/main/bubbleSort.ts
 
 
 | Name | Best | Average | Worst | Memory | Stable | Method | Other notes |
