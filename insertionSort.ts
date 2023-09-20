@@ -1,14 +1,14 @@
 export function insertionSort(arr: Number[]): Number[] {
   for (let i = 1; i < arr.length; i++) {
     let sorted = i - 1
-    const current = arr[i]
 
-    while (sorted > -1 && arr[sorted] > current) {
-      arr[sorted + 1] = arr[sorted]
+    while (sorted > -1 && arr[sorted] > arr[sorted + 1]) {
+      const tmp = arr[sorted]
+      arr[sorted] = arr[sorted + 1]
+      arr[sorted + 1] = tmp
+
       sorted--
     }
-
-    arr[sorted + 1] = current
   }
 
   return arr
