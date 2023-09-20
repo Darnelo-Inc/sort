@@ -1,8 +1,8 @@
-import { quickSort } from "./sort/quickSort"
-import { bubbleSort } from "./sort/bubbleSort"
-import { selectionSort } from "./sort/selectionSort"
-import { insertionSort } from "./sort/insertionSort"
-import { mergeSort } from "./sort/mergeSort"
+import { quickSort } from "./sorts/quickSort"
+import { bubbleSort } from "./sorts/bubbleSort"
+import { selectionSort } from "./sorts/selectionSort"
+import { insertionSort } from "./sorts/insertionSort"
+import { mergeSort } from "./sorts/mergeSort"
 
 const testArr: Number[] = [5, 2, 0, 0, -2, 100, -3]
 const expArr: Number[] = [-3, -2, 0, 0, 2, 5, 100]
