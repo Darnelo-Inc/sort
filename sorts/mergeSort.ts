@@ -1,4 +1,4 @@
-export function mergeSort(arr: Number[]): Number[] {
+export function mergeSort(arr: number[]): number[] {
   if (arr.length <= 1) return arr
 
   const mid = Math.floor(arr.length / 2)
@@ -8,8 +8,8 @@ export function mergeSort(arr: Number[]): Number[] {
   return merge(mergeSort(leftArr), mergeSort(rightArr))
 }
 
-function merge(firstArr: Number[], secondArr: Number[]) {
-  const arrSort: Number[] = []
+function merge(firstArr: number[], secondArr: number[]) {
+  const arrSort: number[] = []
   let i = 0,
     j = 0
 

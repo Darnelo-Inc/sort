@@ -1,4 +1,4 @@
-export function selectionSort(arr: Number[]): Number[] {
+export function selectionSort(arr: number[]): number[] {
   for (let i = 0; i < arr.length; i++) {
     let min_ind = i
     for (let j = i + 1; j < arr.length; j++) {

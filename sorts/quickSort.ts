@@ -1,8 +1,8 @@
-export function quickSort(arr: Number[]): Number[] {
+export function quickSort(arr: number[]): number[] {
   if (arr.length < 2) return arr
 
-  const left: Number[] = []
-  const right: Number[] = []
+  const left: number[] = []
+  const right: number[] = []
   const pivot = arr[0]
 
   for (let i = 1; i < arr.length; i++) {
