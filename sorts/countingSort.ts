@@ -5,7 +5,7 @@ export function countingSort(arr: number[]): number[] {
     maxElem = Math.max(maxElem, arr[i])
   }
 
-  const tempArr = Array(maxElem + 1).fill(0)
+  const tempArr: number[] = Array(maxElem + 1).fill(0)
 
   for (const elem of arr) {
     tempArr[elem]++
